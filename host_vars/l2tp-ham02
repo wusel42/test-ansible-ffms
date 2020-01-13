@@ -1,0 +1,64 @@
+vm_id: 9
+server_id: 9
+
+server_besitzer: "Freifunk Kreis GT"
+hoster: "4830.org"
+
+ospf_nat_ip: 192.251.226.168/32
+ospf_nat_instanceid: 10
+ospf_nat_area: 10
+
+dhcp_type: "isc-dhcp"
+
+domaenenliste:
+   "01":
+      dhcp_start: 10.234.137.16
+      dhcp_ende: 10.234.143.250
+      server_id: 9
+   "02":
+      dhcp_start: 10.234.168.16
+      dhcp_ende: 10.234.175.250
+      server_id: 9
+   "03":
+      dhcp_start: 10.234.184.16
+      dhcp_ende: 10.234.191.250
+      server_id: 9
+   "04":
+      dhcp_start: 10.234.152.16
+      dhcp_ende: 10.234.159.250
+      server_id: 9
+   "05":
+      dhcp_start: 10.234.196.16
+      dhcp_ende: 10.234.199.250
+      server_id: 9
+   "06":
+      dhcp_start: 10.234.68.16
+      dhcp_ende: 10.234.71.250
+      server_id: 9
+   "00":
+      dhcp_start: 10.255.128.16
+      dhcp_ende: 10.255.135.250
+      server_id: 9
+
+use_wlan_slovenija_tunneldigger: true
+
+tunneldigger:
+  instance_per_domain: true
+  interface: "ens3"
+  max_tunnels: 1024
+  port_base: 20000
+  control_port: 10000
+  pmtu_discovery: false
+  tunnel_timeout: 60
+
+collectd:
+  collect_dhcp: true
+  collect_fastd: false
+  collect_l2tp: true
+  collect_ipv4ipv6: true
+  collect_sysctl: true
+  collect_bind: false
+  collect_ping: true
+  graphite_target:
+    host: "graphite.{{freifunk.domain}}"
+    port: 2003

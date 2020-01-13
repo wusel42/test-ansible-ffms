@@ -1,0 +1,49 @@
+vm_id: 4
+server_id: 4
+
+server_besitzer: "Freifunk Kreis GT"
+hoster: "4830.org"
+
+ffgt_nat_ip: 192.251.226.216/32
+
+natip_via_ospf: true
+ospf_nat_instanceid: 10
+ospf_nat_area: 10
+ospf_nat_interface: ens3
+
+domaenenliste:
+   "01":
+      dhcp_start: 10.234.128.16
+      dhcp_ende: 10.234.136.250
+      server_id: 4
+   "02":
+      dhcp_start: 10.234.160.16
+      dhcp_ende: 10.234.167.250
+      server_id: 4
+   "03":
+      dhcp_start: 10.234.176.16
+      dhcp_ende: 10.234.183.250
+      server_id: 4
+   "04":
+      dhcp_start: 10.234.144.16
+      dhcp_ende: 10.234.151.250
+      server_id: 4
+   "05":
+      dhcp_start: 10.234.192.16
+      dhcp_ende: 10.234.195.250
+      server_id: 4
+   "06":
+      dhcp_start: 10.234.64.16
+      dhcp_ende: 10.234.67.250
+      server_id: 4
+
+use_wlan_slovenija_tunneldigger: true
+
+tunneldigger:
+  instance_per_domain: true
+  interface: "ens3"
+  max_tunnels: 1024
+  port_base: 20000
+  control_port: 10000
+  pmtu_discovery: false
+  tunnel_timeout: 60

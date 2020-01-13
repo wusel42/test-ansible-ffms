@@ -1,8 +1,12 @@
-
-# Variablen für Server 
-
 id: 13
-server_besitzer: "Sven Culley / Sense"
+server_besitzer: "Freifunk Kreis GT"
 
-graphite_destination: graphite-node-01.freifunk-muensterland.de
+freifunk:
+  name: "Freifunk Kreis GT"
+  kurzname: "Verein_4830_org"
+  search_domain: "4830.org"
+  email: info@freifunk-kreisgt.de
+  domain: 4830.org
+  
+graphite_destination: graphite.4830.org
 graphite_destination_port: 2003

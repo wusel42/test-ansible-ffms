@@ -1,0 +1,28 @@
+vm_id: 21
+server_id: 21
+
+server_besitzer: "Freifunk Kreis GT"
+hoster: "4830.org"
+
+ospf_nat_ip: 192.251.226.201/32
+ospf_nat_instanceid: 10
+ospf_nat_area: 10
+
+dhcp_type: "isc-dhcp"
+
+domaenenliste:
+   "96":
+      dhcp_start: 6.1.0.33
+      dhcp_ende: 6.1.7.255
+      server_id: 21
+      fastd: true
+
+batman:
+  downstream: 1024Mbit
+  upstream: 1024Mbit
+  #version: "2013.4.0"
+
+fastd:
+  mtu: 1426
+  port_base: 10000
+
