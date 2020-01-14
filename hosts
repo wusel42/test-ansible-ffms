@@ -15,7 +15,8 @@ l2tp-fra01    ipv4=193.26.120.227     ansible_ssh_host="{{ipv4}}" ansible_ssh_po
 l2tp-ham01    ipv4=193.26.120.125     ansible_ssh_host="{{ipv4}}" ansible_ssh_port=22  ansible_ssh_user=root
 l2tp-ams01    ipv4=193.26.120.67      ansible_ssh_host="{{ipv4}}" ansible_ssh_port=22  ansible_ssh_user=root
 l2tp-ber01    ipv4=193.26.120.99      ansible_ssh_host="{{ipv4}}" ansible_ssh_port=22  ansible_ssh_user=root
-l2tp-gut01    ipv4=192.251.226.30     ansible_ssh_host="{{ipv4}}" ansible_ssh_port=22  ansible_ssh_user=root
+l2tp-gut01    ipv4=192.251.226.126    ansible_ssh_host="{{ipv4}}" ansible_ssh_port=22  ansible_ssh_user=root
+l2tp-gut02    ipv4=192.251.226.125    ansible_ssh_host="{{ipv4}}" ansible_ssh_port=22  ansible_ssh_user=root
 
 [monitoring]
 icinga        ipv4=193.26.120.232    ipv6=2a06:e881:1707:1:400:c1ff:fe1a:78e8  ansible_ssh_host="{{ipv4}}"  ansible_ssh_port=22

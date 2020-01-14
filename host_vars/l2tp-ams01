@@ -1,17 +1,15 @@
 vm_id: 3
 server_id: 3
 
-server_besitzer: "Freifunk Kreis GT"
-hoster: "4830.org"
+server_besitzer: "Kai Siering"
+hoster: "UU.ORG / Coloclue"
 
 ospf_nat_ip: 192.251.226.215/32
-ospf_nat_instanceid: 10
-ospf_nat_area: 10
 
 domaenenliste:
-   "00":
-      dhcp_start: 10.255.136.16
-      dhcp_ende: 10.255.143.250
+   "96":
+      dhcp_start: 6.1.3.16
+      dhcp_ende: 6.1.4.255
       server_id: 3
 
 use_wlan_slovenija_tunneldigger: true

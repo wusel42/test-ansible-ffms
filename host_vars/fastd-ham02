@@ -5,27 +5,22 @@ server_besitzer: "Verein 4830.org"
 hoster: "4830.org"
 
 ospf_nat_ip: 192.251.226.171/32
-#ospf_nat_instanceid: 10
-#ospf_nat_area: 10
 
 dhcp_type: "isc-dhcp"
 
 domaenenliste:
+   "98":
+      dhcp_start: 10.169.8.16
+      dhcp_ende: 10.169.11.255
+      server_id: 6
+      vm_id: 6 
+      fastd: true
    "99":
-      dhcp_start: 10.255.128.16
-      dhcp_ende: 10.255.135.254
+      dhcp_start: 10.255.132.16
+      dhcp_ende: 10.255.133.255
       server_id: 8
       vm_id: 8
       fastd: true
-
-#tunneldigger:
-#  instance_per_domain: true
-#  interface: "ens3"
-#  max_tunnels: 1024
-#  port_base: 20000
-#  control_port: 10000
-#  pmtu_discovery: false
-#  tunnel_timeout: 60
 
 batman:
   downstream: 1024Mbit
