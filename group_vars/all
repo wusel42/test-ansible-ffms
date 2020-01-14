@@ -148,7 +148,7 @@ domaenen:
     community: Ansible-Test-fastd-v14
     site_code: "atv14"
     ffv4_network: 6.0.0.0/16
-    ffv6_network: 2001:bf7:1300:fcfc::/64
+    ffv6_network: 2001:bf7:1310:fcfc::/64
     map_scale: 1.1
     map_show_contact: false
     map_max_age: 14
@@ -169,7 +169,7 @@ domaenen:
     community: Ansible-Test-v15
     site_code: "atv15"
     ffv4_network: 6.1.0.0/16
-    ffv6_network: 2001:bf7:1300:abcd::/64
+    ffv6_network: 2001:bf7:1310:abcd::/64
     map_scale: 1.1
     map_show_contact: false
     map_max_age: 14
