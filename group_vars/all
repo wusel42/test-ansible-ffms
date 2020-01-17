@@ -255,7 +255,7 @@ ff_network:
   # IPv4 Adressraum
   v4_network: 10.234.0.0/15
   # IPv6 adressraum
-  v6_network: 2a06:e881:1700::/44
+  v6_network: 8733::/48 # v6_network wird als unreachable exportiert (static_Gesamtnetzwerk); da wir u. a. 2001:bf7:1310::/44 und 2001:bf7:170::/44 nutzen, 2001:bf7::/32 aber more specific als ::/0 ist, muß hier ein Dummy-Eintrag hin. Besser wäre ULA ;)
 
 administratorenteam:
   - "cord"
