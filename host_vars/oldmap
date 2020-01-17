@@ -100,7 +100,5 @@ collectd:
     host: "grapite.{{freifunk.domain}}"
     port: 2003
 
-#batman_version: "2017.4"
-#
 batman:
   version: "2013.4.0"
