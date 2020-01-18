@@ -44,7 +44,7 @@ domaenen:
     forum_url: https://forum.freifunk-kreisgt.de/
     firmware_url: http://firmware.4830.org/
   "03":
-    name: Freifunk KreisGT (Nord)
+    name: Freifunk Kreis GT (Nord)
     community: Freifunk Kreis GT
     site_code: "gt8"
     ffv4_network: 10.234.176.0/20
