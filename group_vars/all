@@ -206,7 +206,7 @@ domaenen:
     main_url: https://muerit.freifunk.net/
     forum_url: https://forum.freifunk-kreisgt.de/
     firmware_url: http://firmware.4830.org/
-    proxy_map_data_url: http://hopglass.4830.org/yanic/muer/
+    proxy_map_data_url: http://192.251.226.118/yanic/muer/
   "99":
     name: Legacy FFGT
     community: Freifunk Kreis GT
@@ -228,7 +228,7 @@ domaenen:
     main_url: https://freifunk-kreisgt.de/
     forum_url: https://forum.freifunk-kreisgt.de/
     firmware_url: http://firmware.4830.org/
-    proxy_map_data_url: http://hopglass.4830.org/yanic/ffgt/
+    proxy_map_data_url: http://192.251.226.118/yanic/ffgt/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird
 routing_table: 42
@@ -257,7 +257,7 @@ ff_network:
   # IPv4 Adressraum
   v4_network: 10.234.0.0/15
   # IPv6 adressraum
-  v6_network: 8733::/48 # v6_network wird als unreachable exportiert (static_Gesamtnetzwerk); da wir u. a. 2001:bf7:1310::/44 und 2001:bf7:170::/44 nutzen, 2001:bf7::/32 aber more specific als ::/0 ist, muß hier ein Dummy-Eintrag hin. Besser wäre ULA ;)
+  v6_network: 8733::/48 # v6_network wird als unreachable exportiert (static_Gesamtnetzwerk); da wir u. a. 2001:bf7:1310::/44 und 2001:bf7:170::/44 nutzen, 2001:bf7::/32 aber more specific als ::/0 ist, muß hier ein Dummy-Eintrag hin. Ja, besser wäre ULA ;)
 
 administratorenteam:
   - "cord"
