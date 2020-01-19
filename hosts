@@ -1,7 +1,5 @@
 [mapserver]
-mskarte      ipv4=193.26.120.236 ipv6=2a06:e881:1707:1:400:c1ff:fe1a:78ec  ansible_ssh_host="{{ipv4}}"  ansible_ssh_port=22
 newmap       ipv4=193.26.120.122 ipv6=2a06:e881:1702:1:400:c1ff:fe1a:787a  ansible_ssh_host="{{ipv4}}"  ansible_ssh_port=22
-oldmap       ipv4=193.26.120.231 ipv6=2a06:e881:1707:1:400:c1ff:fe1a:78e7  ansible_ssh_host="{{ipv4}}"  ansible_ssh_port=22
 
 [statistics]
 newstats       ipv4=193.26.120.249  ipv6=2a06:e881:1708:42:400:c1ff:fe1a:78f9  ansible_ssh_host="{{ipv4}}"  ansible_ssh_port=22
